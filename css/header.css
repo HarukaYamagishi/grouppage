@@ -1,0 +1,64 @@
+/* [nav] refer from https://www.webdlab.com/labs/dropdownmenu-3/ */
+.gnav {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #214785;
+}
+
+.gnav .nav {
+  width: 750px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  position: relative;
+  list-style: none;
+}
+
+.nav li a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2.8;
+  background: #214785;
+  transition: 0.5s;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*layer-1*/
+.nav > li:hover > a {
+  color: #fff;
+  background: #afc6e2;
+}
+
+/*layer-2*/
+.nav > li li:hover > a {
+  color: #149684;
+  background: #afc6e2;
+}
+
+.nav li ul {
+  top: 40px;
+  left: -40px;
+  position: absolute;
+}
+
+.nav li ul li {
+  overflow: hidden;
+  height: 0;
+  transition: 0.2s;
+}
+
+.nav li:hover > ul > li {
+  overflow: visible;
+  height: 40px;
+}
