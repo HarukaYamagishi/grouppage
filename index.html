@@ -6,15 +6,25 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <ul id="nav">
-        <li><a href="#">MENU1</a></li>
-        <li><a href="#">MENU2</a></li>
-        <li><a href="#">MENU3</a></li>
-        <li><a href="#">MENU4</a></li>
+    <div class="navigation">
+      <ul>
+      	<li><a href="#">MENU1</a></li>
+      	<li>
+      		<a href="#">MENU2<span class="caret"></span></a>
+      		<div>
+      			<ul>
+      				<li><a href="#cat">cat</a></li>
+      				<li><a href="#dog">dog</a></li>
+      				<li><a href="#rabbit">rabbit</a></li>
+      			</ul>
+      		</div>
+      	</li>
+      	<li><a href="#">About</a></li>
+      	<li><a href="#">Help</a></li>
       </ul>
+      </div>
 
-    </header>
+
 
 
   </body>
