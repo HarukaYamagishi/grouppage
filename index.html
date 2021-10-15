@@ -31,13 +31,27 @@
         </div>
     </header>
 
-    <img src="images/医大図書館画像（明るい）.png" alt="カーソル前画像" width="30%">
+    <!-- <div class="slider">
+        <div class="slider_content"><img src="https://peonyqueen.files.wordpress.com/2016/03/slid1.jpg" alt="slider_image1" class="slider_img"></div>
+        <div class="slider_content"><img src="https://peonyqueen.files.wordpress.com/2016/03/slid2.jpg" alt="slider_image2" class="slider_img"></div>
+        <div class="slider_content"><img src="https://peonyqueen.files.wordpress.com/2016/03/slid3.jpg" alt="slider_image3" class="slider_img"></div>
+    </div> -->
+
+    <div class="slider" style="display: block;">
+    	<ul>
+    		<li><img src="https://peonyqueen.files.wordpress.com/2016/03/slid1.jpg" ></li>
+    		<li><img src="https://peonyqueen.files.wordpress.com/2016/03/slid2.jpg" ></li>
+    		<li><img src="https://peonyqueen.files.wordpress.com/2016/03/slid3.jpg" ></li>
+    	</ul>
+    </div>
+
+    <!-- <img src="images/医大図書館画像（明るい）.png" alt="カーソル前画像" width="30%">
     <figure class="hover-parent">
       <img src="images/医大図書館画像（暗い）.jpg" alt="カーソル後画像" width="30%">
       <figcaption class="hover-mask"></figcaption>
-    </figure>
+    </figure> -->
 
-    <form method="get" action="https://opac.kochi-u.ac.jp/opac/search" target="_blank">
+    <form method="get" action="https://opac.kochi-u.ac.jp/opac/search">
       <input type="text" name="q" size="31" maxlength="255" value="" placeholder="Search title, author, journal etc."/><input type="submit" name="btng" value="Books and Journals">
       <input type="hidden" name="hl" value="ja">
     </form>
@@ -47,8 +61,7 @@
             <a href="#">
                 <p class="date">2021/10/12</p>
                 <p class="category"><span>お知らせ</span></p>
-                <p class="title">総合型選抜Ｉ入試のための医学部分館２階立入制限について</p>
-                <p href="http://www.kochi-u.ac.jp/kms/of_lbrry/osirase/index.htm#2021.10.12"></p>
+                <p class="title" href="http://www.kochi-u.ac.jp/kms/of_lbrry/osirase/index.htm#2021.10.12">総合型選抜Ｉ入試のための医学部分館２階立入制限について</p>
             </a>
         </li>
         <li class="item">
