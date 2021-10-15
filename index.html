@@ -6,12 +6,20 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/news.css">
     <link rel="stylesheet" href="./css/image.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <style>
+    body {
+    	font-family: 'Sawarabi Mincho', Helvetica, Arial, sans-serif;
+    }
+    </style>
+
 
     <header>
-      <a href="#"><img src="images/favicon.png" alt="高知大学学術情報基盤図書館医学部分館"></a>
+      <a href="index.html"><img src="images/高知大学マーク.jpg" alt="高知大学学術情報基盤図書館医学部分館"></a>
       <div class="gnav">
           <ul class="nav">
           	<li>
@@ -31,11 +39,6 @@
         </div>
     </header>
 
-    <!-- <div class="slider">
-        <div class="slider_content"><img src="https://peonyqueen.files.wordpress.com/2016/03/slid1.jpg" alt="slider_image1" class="slider_img"></div>
-        <div class="slider_content"><img src="https://peonyqueen.files.wordpress.com/2016/03/slid2.jpg" alt="slider_image2" class="slider_img"></div>
-        <div class="slider_content"><img src="https://peonyqueen.files.wordpress.com/2016/03/slid3.jpg" alt="slider_image3" class="slider_img"></div>
-    </div> -->
 
     <div class="slider" style="display: block;">
     	<ul>
@@ -51,10 +54,11 @@
       <figcaption class="hover-mask"></figcaption>
     </figure> -->
 
-    <form method="get" action="https://opac.kochi-u.ac.jp/opac/search">
-      <input type="text" name="q" size="31" maxlength="255" value="" placeholder="Search title, author, journal etc."/><input type="submit" name="btng" value="Books and Journals">
-      <input type="hidden" name="hl" value="ja">
-    </form>
+    <form method="get" action="https://opac.kochi-u.ac.jp/opac/search" target="_blank">
+    <input type="text" name="q" size="30" maxlength="255" value="" placeholder="通常検索"/>
+    <input type="submit" name="btng" value="検索">
+        <input type="hidden" name="hl" value="ja">
+        </form>
 
     <ul class="news-list">
         <li class="item">
